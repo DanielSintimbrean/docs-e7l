@@ -48,6 +48,7 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
   en: {
     "Section Header": [
+      { text: "Readme", link: "en/readme" },
       { text: "Introduction", link: "en/introduction" },
       { text: "Page 2", link: "en/page-2" },
       { text: "Page 3", link: "en/page-3" },
