@@ -1,6 +1,6 @@
 export const SITE = {
-  title: "Documentation",
-  description: "Your website description.",
+  title: "ERC-721Linkable",
+  description: "A new way of linking 🔗",
   defaultLanguage: "en_US",
 };
 
@@ -32,7 +32,7 @@ export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
 export const GITHUB_EDIT_URL = `https://github.com/Racks-Labs/ERC721-Linkable/tree/main`;
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
+export const COMMUNITY_INVITE_URL = `https://discord.gg/cRBBd27FSj`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
@@ -47,12 +47,9 @@ export type Sidebar = Record<
 >;
 export const SIDEBAR: Sidebar = {
   en: {
-    "Section Header": [
-      { text: "Readme", link: "en/readme" },
-      { text: "Introduction", link: "en/introduction" },
-      { text: "Page 2", link: "en/page-2" },
-      { text: "Page 3", link: "en/page-3" },
+    E7L: [
+      { text: "Overview", link: "en/overview" },
+      { text: "Start from scratch", link: "en/start-scratch" },
     ],
-    "Another Section": [{ text: "Page 4", link: "en/page-4" }],
   },
 };

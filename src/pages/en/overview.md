@@ -1,5 +1,5 @@
 ---
-title: Readme
+title: Overview
 description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
